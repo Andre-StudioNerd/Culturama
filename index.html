@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <h1>Pesquisa Online - Tabajara FC</h1>
+      <h1>Pesquisa Sócio Torcedor - Tabajara FC</h1>
     </header>
     <section>
       <form action="" method="get">
@@ -41,12 +41,18 @@
         <fieldset>
           <legend>Perfil</legend>
           <p>Gênero:</p>
-          <input type="radio" name="userGender" value="Feminino" />
-          <label for="userGender">Feminino</label>
-          <input type="radio" name="userGender" value="Masculino" />
-          <label for="userGender">Masculino</label>
-          <input type="radio" name="userGender" value="notInformed" />
-          <label for="userGender">Prefiro não informar</label>
+          <input id="fem" type="radio" name="userGender" value="Feminino" />
+          <label for="fem">Feminino</label>
+          <input id="masc" type="radio" name="userGender" value="Masculino" />
+          <label for="masc">Masculino</label>
+          <input
+            id="notInformed"
+            type="radio"
+            name="userGender"
+            value="notInformed"
+          />
+          <label for="notInformed">Prefiro não informar</label>
+          <br />
           <label for="maritalStatus">Estado civil:</label>
           <select name="maritalStatus">
             <option value="notInformed">Selecione...</option>
@@ -55,6 +61,7 @@
             <option value="divorciado">Divorciado</option>
             <option value="casado">União estável</option>
           </select>
+          <br />
           <label for="userState">Estado:</label>
           <select name="userState">
             <option value="Acre">Acre</option>
@@ -85,6 +92,7 @@
             <option value="Sergipe">Sergipe</option>
             <option value="Tocantins">Tocantins</option>
           </select>
+          <br />
           <label for="userCity">Cidade:</label>
           <input
             type="text"
