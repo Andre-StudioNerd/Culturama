@@ -17,7 +17,10 @@ button {
 
 /* ESTILO DA PAGINA */
 body {
-  background-color: #f9f9f9;
+  background-image: url(/img/campo_futebol.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 20px;
   max-width: 700px;
   margin: 0 auto;
@@ -31,10 +34,21 @@ header {
 
 img {
   width: 95px;
+  margin-bottom: 30px;
 }
 
 h1 {
   font-family: "Fjalla One", sans-serif;
+  background-color: #f2cc0f;
+  padding: 15px 12px;
+  color: #361087;
+}
+
+h2 {
+  font-family: "Fjalla One", sans-serif;
+  background-color: #fff;
+  padding: 15px 12px;
+  color: #361087;
 }
 
 /* ESTILO DO FORMULARIO */
@@ -120,10 +134,41 @@ button {
 }
 
 button[type="submit"]:hover {
-  background-color: green;
+  background-color: #361087;
   color: #fff;
 }
 button[type="reset"]:hover {
-  background-color: orangered;
+  background-color: #f6c810;
+  color: #000;
+}
+
+.buttom {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.btn-link {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #361087;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: #f6c810;
+  color: #000;
+}
+
+.sucesso {
+  background-color: #fff;
+  padding: 20px 20px;
 }
