@@ -17,7 +17,7 @@ button {
 
 /* ESTILO DA PAGINA */
 body {
-  background-image: url(/img/campo_futebol.jpg);
+  background-image: url("../img/campo_futebol.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
